@@ -1,0 +1,18 @@
+:root{
+    --primary: #566786;
+    --secodary: #350230;
+    --terciary: #14f714;
+}
+button{
+    font-family: arial;
+    color: aqua;
+    border-radius: 10px;
+    background-color: var(--primary);
+    padding: 10px;
+}
+button:hover{
+    background-color: var(--secodary);
+}
+button:active{
+    background-color: var(--terciary);
+}
